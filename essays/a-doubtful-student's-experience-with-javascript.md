@@ -1,3 +1,4 @@
+---
 layout: essay
 type: essay
 title: A Doubtful Student's Experience with Javascript 
