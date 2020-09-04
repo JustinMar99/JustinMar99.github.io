@@ -2,7 +2,7 @@
   "basics": {
     "name": "Justin Mar",
     "label": "Student",
-    "picture": "https://JustinMar.github.io/images/IMG_0554-2.jpg",
+    "picture": "https://JustinMar.github.io/images/molly.png",
     "email": "justinmar1999@hawaii.edu",
     "phone": "808-989-9716",
     "website": "https://JustinMar99.github.io",
@@ -26,19 +26,9 @@
     {
       "name": "internet of things",
       "keywords": [
-        ""
+        "Software engineering"
       ]
     },
-    {
-      "name": "data mining",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "artificial intelligence",
-      "keywords": [
-      ]
-    }
   ],
   "skills": [
     {
