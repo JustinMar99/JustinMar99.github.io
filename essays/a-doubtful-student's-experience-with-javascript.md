@@ -1,6 +1,5 @@
 layout: essay
 type: essay
-published: true
 title: A Doubtful Student's Experience with Javascript 
 date: 2020-09-03
 labels:
