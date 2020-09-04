@@ -39,6 +39,9 @@
         "C++",
         "Java",
         "Javascript",
+        "SSH Secure Shell",
+        "Visual Studio Code",
+        "JSFiddle"
       ]
     },
     {
@@ -46,10 +49,9 @@
       "level": "",
       "keywords": [
         "MacOS",
+        "Windows 10",
         "Git/GitHub",
-        "SSH Secure Shell",
-        "Visual Studio Code",
-        "JSFiddle"
+        
       ]
     }
   ],
