@@ -2,10 +2,10 @@
   "basics": {
     "name": "Justin Mar",
     "label": "Student",
-    "picture": "https://JustinMar.github.io/images/justin.jpg",
+    "picture": "https://justin-mar.github.io/images/justin.jpg",
     "email": "justinmar1999@hawaii.edu",
     "phone": "808-989-9716",
-    "website": "https://JustinMar99.github.io",
+    "website": "https://justin-mar.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2021.",
     "location": {
       "address": "",
@@ -17,7 +17,7 @@
     "profiles": [
       {
         "network": "github",
-        "username": "JustinMar99",
+        "username": "justin-mar",
         "url": "http://github.com/JustinMar99"
       }
     ]
