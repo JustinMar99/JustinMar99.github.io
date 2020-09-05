@@ -7,7 +7,7 @@ permalink: projects/crossy-road
 date: 2019-04-16
 labels:
   - Java
-summary:
+summary: A crossy road game.
 ---
 
 <div class="ui image" src="../images/full-crossyroad.png">
