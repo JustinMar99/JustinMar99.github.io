@@ -39,9 +39,6 @@
         "C++",
         "Java",
         "Javascript",
-        "SSH Secure Shell",
-        "Visual Studio Code",
-        "JSFiddle"
       ]
     },
     {
@@ -77,12 +74,7 @@
     {
     }
   ],
-  "awards": [
-    {
-    },
-    {
-    }
-  ],
+  // "award":
   "references": [
     {
       "name": "Available upon request",
