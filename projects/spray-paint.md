@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/spraypaint.png
 title: Spray Paint
-permalink:projects/spray-paint
+permalink: projects/spray-paint
 date: 2019-01-08
 labels:
   - Java
