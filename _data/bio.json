@@ -66,12 +66,40 @@
   ],
   "work": [
     {
+      "company": "UH Manoa Bookstore",
+      "position": "Bookstore Customer Service Trainee",
+      "website": "",
+      "startDate": "2019-04",
+      "endDate": "2020-08-21",
+      "summary": "",
+      "highlights": [
+        "Comunicate with customer to provide them the best possible service",
+        "Answer phone and email responses"
+      ]
     },
   ],
   "volunteer": [
     {
+      "organization": "Pacific Asian Affairs Council",
+      "website": "https://www.paachawaii.org/",
+      "startDate": "2013-03",
+      "endDate": "2017-05",
+      "summary": "",
+      "highlights": [
+        "Organized various volunteer work",
+        "Attended and participated in conferences on world issues"
+      ]
     },
     {
+      "organization": "Hawaii Pre-Health Career Corps",
+      "website": "https://www.ahec.hawaii.edu/phcc/",
+      "startDate": "2018-09",
+      "endDate": "2019-08",
+      "summary": "",
+      "highlights": [
+        "Volunteered to help clean up public places",
+        "Taught children about different health professions"
+      ]
     }
   ],
   // "award":
