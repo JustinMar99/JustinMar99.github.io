@@ -29,12 +29,12 @@
   },
   "interests": [
     {
-      "name": "Software engineering",
+      "name": "oftware engineering",
       "keywords": [
       ]
     },
     {
-      "name": "data mining",
+      "name": "machine learning",
       "keywords": [
       ]
     },
@@ -52,9 +52,7 @@
         "C",
         "C++",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
       ]
     },
     {
@@ -62,10 +60,8 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Windows 10",
+        "Git/GitHub"
       ]
     }
   ],
