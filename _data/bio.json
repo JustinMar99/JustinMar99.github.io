@@ -3,7 +3,7 @@
     "name": "Justin Mar",
     "label": "Student",
     "picture": "https://justin-mar.github.io/images/justin.jpg",
-    "email": "justinmar1999@hawaii.edu",
+    "email": "justinmar1999@gmail.com",
     "phone": "808-989-9716",
     "website": "https://justin-mar.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2021.",
@@ -26,7 +26,7 @@
     {
       "name": "Software engineering",
       "keywords": [
-        ""
+        "",
       ]
     },
   ],
@@ -47,8 +47,7 @@
       "keywords": [
         "MacOS",
         "Windows 10",
-        "Git/GitHub",
-        
+        "Git/GitHub", 
       ]
     }
   ],
@@ -102,7 +101,8 @@
       ]
     }
   ],
-  // "award":
+  "award": [
+  ],
   "references": [
     {
       "name": "Available upon request",
