@@ -60,6 +60,13 @@
       "endDate": "Present",
       "gpa": "",
       "courses": [
+        "ICS 111 Introduction to Computer Science I",
+        "ICS 141 Discrete Mathematics for Computer Science I",
+        "ICS 211 Introduction to Computer Science II",
+        "ICS 212 Program Structure",
+        "ICS 241 Discrete Mathematics for Computer Science II",
+        "MATH 215 Applied Calculus",
+        "MATH 242 Calculus II",
       ]
     }
   ],
