@@ -17,8 +17,8 @@ In this project, I learned how to connect an array to an image, and in doing so,
 ```java
 public boolean collision(int x, int dx, int y, int dy, EZImage[] wall) {		//Checks if wall is present in chosen direction
 		for(int i = 0; i<wall.length; i++) {
-			if(wall[i] != null) {													//Only checks for existing wall added to arrays
-				if(wall[i].isPointInElement(x+(dx*25), y+(dy*25))) {				//25 because while roombrah canvas is 32 pixels, roombrah itself is only about 25
+			if(wall[i] != null) {						//Only checks for existing wall added to arrays
+				if(wall[i].isPointInElement(x+(dx*25), y+(dy*25))) {	//25 because while roombrah canvas is 32 pixels, roombrah itself is only about 25
 					return true;
 				} 
 			}
