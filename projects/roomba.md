@@ -27,7 +27,9 @@ public boolean collision(int x, int dx, int y, int dy, EZImage[] wall) {		//Chec
 	}
 ```
 
+
 Here's an example in how the code detects if there is dirt in the roomba's path:
+
 
 ```java
 public void clean(int x, int dx, int y, int dy, EZImage[] dirt) {			//Checks if dirt is present in chosen direction
