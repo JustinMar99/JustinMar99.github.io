@@ -10,7 +10,7 @@ labels:
 summary: Developed a moving object with obstacle detecting capabilities.
 ---
 
-In this project, I was the sole programmer excpet on using a provided array to generate the map. The map has walls, and dirt that the roomba had to interact with. The code generates a roomba in the top left corner that moves randomly and leaves a small gray circle on areas its already been to. The roomba when on contact with an element of the map, will either collect it if it is a dirt block or move in a different direction if it is a wall. The program ends when the roomba collects all the dirt blocks. 
+In this project, I was the sole programmer except on using a provided array to generate the map. The map has walls, and dirt that the roomba had to interact with. The code generates a roomba in the top left corner that moves randomly and leaves a small gray circle on areas its already been to. The roomba when on contact with an element of the map, will either collect it if it is a dirt block or move in a different direction if it is a wall. The program ends when the roomba collects all the dirt blocks. 
 
 In this project, I learned how to connect an array to an image, and in doing so, create the map for the code from the array. I also learned how to detect obstacles with a moving object. Here's an example from the code that detects walls or obstacles in the roomba's path:
 
@@ -47,6 +47,6 @@ public void clean(int x, int dx, int y, int dy, EZImage[] dirt) {			//Checks if 
 	}
 ```
 
-The code checks if the wall, obstacle, or dirt is in the roomba's path using the isPointInElement() method on the array containing the wall and dirt blocks. I also learned about moving objects that are no longer neeeded instead of deleting them. This was done on the dirt blocks, moving them to the top left corner and pushing it behind the wall that is there.
+The code checks if the wall, obstacle, or dirt is in the roomba's path using the isPointInElement() method on the array containing the wall and dirt blocks. I also learned about moving objects that are no longer needed instead of deleting them. This was done on the dirt blocks, moving them to the top left corner and pushing it behind the wall that is there.
 
 You can see a video demonstration at https://www.youtube.com/watch?v=TCad7c73uAw
