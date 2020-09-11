@@ -14,7 +14,7 @@ In this project, I was the sole programmer excpet on using a provided array to g
 
 In this project, I learned how to connect an array to an image, and in doing so, create the map for the code from the array. I also learned how to detect obstacles with a moving object. Here's an example from the code that detects walls or obstacles in the roomba's path:
 
----
+```
 public boolean collision(int x, int dx, int y, int dy, EZImage[] wall) {		//Checks if wall is present in chosen direction
 		for(int i = 0; i<wall.length; i++) {
 			if(wall[i] != null) {													//Only checks for existing wall added to arrays
@@ -25,11 +25,11 @@ public boolean collision(int x, int dx, int y, int dy, EZImage[] wall) {		//Chec
 		}
 		return false;
 	}
- ---
+```
 
 Here's an example in how the code detects if there is dirt in the roomba's path:
 
----
+```
 public void clean(int x, int dx, int y, int dy, EZImage[] dirt) {			//Checks if dirt is present in chosen direction
 		for(int i = 0; i<dirt.length; i++) {
 			if(dirt[i] != null) {
@@ -45,7 +45,7 @@ public void clean(int x, int dx, int y, int dy, EZImage[] dirt) {			//Checks if 
 			}
 		}
 	}
----
+```
 
 The code checks if the wall, obstacle, or dirt is in the roomba's path using the isPointInElement() method on the array containing the wall and dirt blocks. I also learned about moving objects that are no longer neeeded instead of deleting them. This was done on the dirt blocks, moving them to the top left corner and pushing it behind the wall that is there.
 
