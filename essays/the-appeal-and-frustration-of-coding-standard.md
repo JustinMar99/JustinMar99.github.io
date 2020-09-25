@@ -1,7 +1,7 @@
 --- 
 layout: essay 
 type: essay 
-title: The appeal and frustration of coding standard  
+title: The Appeal and Frustration of Coding Standard
 date: 2020-09-24 
 labels: 
   - Coding Standard 
