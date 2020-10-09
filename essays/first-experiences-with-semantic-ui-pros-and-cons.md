@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: First Experiences with Semnantic UI: The Pros and Cons
+title: First Experiences with Semnantic UI The Pros and Cons
 date: 2020-10-08
 labels:
   - UI Frameworks
