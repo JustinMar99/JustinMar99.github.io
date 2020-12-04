@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: title
+title: Cooking an Omlette
 date: 2020-12-03
 labels:
   - Design Patterns
@@ -40,4 +40,26 @@ submit(data, formRef) {
           }
         });
 ```
-In this step,
+In this step, we observe when a new doc is succesfully inserted into StudySessions.collection, which then cause a new doc to be inserted into Alerts.collection. 
+
+In our recipe, we also change how the information is handled internally to how the user views it. If we look at the ingredients we prepared before we begin cooking:
+```javascript
+"defaultAccounts": [
+    { "email": "admin@foo.com", "password": "changeme", "role": "admin" },
+    { "email": "john@foo.com", "password": "changeme" },
+    { "email": "bob@foo.com", "password": "changeme" }
+  ],
+
+  "defaultDojo": [
+    { "className": "ICS 314", "status": "grasshopper", "owner": "john@foo.com" },
+    { "className": "ICS 311", "status": "grasshopper", "owner": "john@foo.com" },
+    { "className": "ICS 311", "status": "sensei", "owner": "bob@foo.com"}
+  ],
+
+  "defaultStudySessions": [
+    { "topic": "Help with HW", "className": "ICS 311", "sessionDate": "11/15/2020", "sessionTime": "Right Now!", "owner": "john@foo.com" },
+
+    { "topic":  "Exam Study", "className":  "ICS 311", "sessionDate": "11/17/2020", "sessionTime": "5:00 pm", "owner":  "john@foo.com"}
+  ]
+  ```
+we prepare a lot of ingredients to use, however, each customer will only see the parts that they ordered and thus are the owner.
