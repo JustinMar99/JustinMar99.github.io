@@ -13,3 +13,32 @@ Based on my understanding of design patterns, it is like a recipe. Imagine you w
 Now while home cooking doesn't require much, if you step into the world of professional chefs, there would be others things to consider. There's now multiple people in the kitchen, and you don't want to get in each other's way. And based on how most restaurants are set up, they don't want you to see how they prepare your food either. They implement a **Model-View-Controller** system where each chef can work, preparing the parts that they specialize in, with the customers only having to view and select their choice off a menu. A restuarant also may have their own special recipe that they don't want leaking out to their competitors. Like a **factory**, they can create and bring out meals without exposing the steps they took to create those meals.
 
 ## My Omlette
+I have certainly cooked a couple of omlettes before, so let me lay down my experience doing so. For one of my classes, the professor provided us with his recipe on cooking an omlette and as a group, we set about modifying it to create our own **prototype** of the recipe that we can call our own. We have certain areas in our recipe that requires observation to go to the next step. For example:
+
+```javascript
+submit(data, formRef) {
+    const { topic, className, sessionDate, sessionTime } = data;
+    const owner = Meteor.user().username;
+    StudySessions.collection.insert({ topic, className, sessionDate, sessionTime, owner },
+        (error) => {
+          if (error) {
+            swal('Error', error.message, 'error');
+          } else {
+            swal('Success', 'Item added successfully', 'success');
+            formRef.reset();
+            // find all other users that are registered under the same class
+            const sameOwners = _.without(_.pluck(DojoOwners.collection.find({ className: className }).fetch(), 'owner'), owner);
+
+            // Insert an alert for all other users
+            sameOwners.map((entry) => Alerts.collection.insert({
+              owner: entry,
+              topic: topic,
+              className: className,
+              sessionDate: sessionDate,
+              sessionTime: sessionTime,
+            }));
+          }
+        });
+        ```
+        
+        In this step,
