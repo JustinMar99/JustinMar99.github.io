@@ -39,6 +39,5 @@ submit(data, formRef) {
             }));
           }
         });
-        ```
-        
-        In this step,
+```
+In this step,
