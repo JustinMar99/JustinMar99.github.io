@@ -62,4 +62,4 @@ In our recipe, we also change how the information is handled internally to how t
     { "topic":  "Exam Study", "className":  "ICS 311", "sessionDate": "11/17/2020", "sessionTime": "5:00 pm", "owner":  "john@foo.com"}
   ]
   ```
-we prepare a lot of ingredients to use for all the different types of omlettes, and make sure that each customer will only see the ingredients that they ordered for their omlette.
+we prepare a lot of ingredients to use for all the different types of omlettes, and make sure that each customer will only view the ingredients that they ordered for their omlette.
