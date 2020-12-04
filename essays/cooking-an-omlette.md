@@ -12,7 +12,7 @@ Based on my understanding of design patterns, it is like a recipe. Imagine you w
 
 Now while home cooking doesn't require much, if you step into the world of professional chefs, there would be others things to consider. There's now multiple people in the kitchen, and you don't want to get in each other's way. And based on how most restaurants are set up, they don't want you to see how they prepare your food either. They implement a **Model-View-Controller** system where each chef can work, preparing the parts that they specialize in, with the customers only having to view and select their choice off a menu. A restuarant also may have their own special recipe that they don't want leaking out to their competitors. Like a **factory**, they can create and bring out meals without exposing the steps they took to create those meals.
 
-## My Omlette
+## My Omlette Experience
 I have certainly cooked a couple of omlettes before, so let me lay down my experience doing so. For one of my classes, the professor provided us with his recipe on cooking an omlette and as a group, we set about modifying it to create our own **prototype** of the recipe that we can call our own. We have certain areas in our recipe that requires observation to go to the next step. For example:
 
 ```javascript
@@ -62,4 +62,4 @@ In our recipe, we also change how the information is handled internally to how t
     { "topic":  "Exam Study", "className":  "ICS 311", "sessionDate": "11/17/2020", "sessionTime": "5:00 pm", "owner":  "john@foo.com"}
   ]
   ```
-we prepare a lot of ingredients to use, however, each customer will only see the parts that they ordered and thus are the owner.
+we prepare a lot of ingredients to use for all the different types of omlettes, and make sure that each customer will only see the ingredients that they ordered for their omlette.
