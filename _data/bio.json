@@ -91,6 +91,20 @@
         "Comunicate with customer to provide them the best possible service",
         "Answer phone and email responses"
       ]
+    },
+    {
+      "company": "Chinatown Hawaiian Market",
+      "position": "Employee",
+      "website": "",
+      "startDate": "2011-07-01',
+      "endDate": "current",
+      "summary":"",
+      "highlights": [
+        "Family vegetable store",
+        "Packaged, prepared, and stocked vegetables",
+        "Used cashier to process and collect payments",
+        "Calculated and organized sales on a spreadsheet"
+      ]
     }
   ],
     "volunteer": [
@@ -109,7 +123,7 @@
     {
       "organization": "Hawaii Pre-Health Career Corps",
       "website": "https://www.ahec.hawaii.edu/phcc/",
-      "position": "member",
+      "position": "Member",
       "startDate": "2018-09",
       "endDate": "2019-08",
       "summary": "",
