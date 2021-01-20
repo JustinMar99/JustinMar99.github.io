@@ -132,7 +132,18 @@
         "Volunteered to help clean up public places",
         "Taught children about different health professions"
       ]
-    }
+    },
+      {
+        "organization": "ICSpark",
+        "website": "https://icspark.github.io/",
+        "position": "Member",
+        "startDate": "2020-09",
+        "endDate": "current",
+        "summary": "",
+        "highlights": [
+          "Tutor middle and high school students about web development"
+          ]
+      }
   ],
   "references": [
     {
