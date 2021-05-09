@@ -21,4 +21,9 @@ const nMilesSavedPerDay = useRef(_.map(milesSavedPerDay.mode, (mode, i) => ({
         mode: mode,
     })));
 ```
-Working on the "What If" page, further increased my knowledge about passing states between different pages and manipulating them allowing states to be transferred between multiple components and pages. This way we were able to separate the form component where user selected data and the component that rendered the data. I also learned more about debugging React states. Before this semester, I was confused about rendering and how to view the state, but after digging more into it this semester, I know how to check what values the states are currently on. Initially, I was confused about functions vs class in React. This semester has helped me learn about when to use each and how to utilize React states in both.
+Working on the "What If" page, further increased my knowledge about passing states between different pages and manipulating them allowing states to be transferred between multiple components and pages. This way we were able to separate the form component where user selected data and the component that rendered the data. I also learned more about debugging React states. Before this semester, I was confused about rendering and how to view the state, but after digging more into it this semester, I know how to check what values the states are currently on. Initially, I was confused about functions vs class in React. This semester has helped me learn about when to use each and how to utilize React states in both. In the previous semseter, I used class for React states, thus was initially clueless on setStates() for functions. For example:
+
+```javascript
+const handleChange = (event, { value }) => setTransport(value);
+```
+This simply updates the transport state with value on submitting a form. 
