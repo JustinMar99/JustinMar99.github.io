@@ -4,7 +4,7 @@ type: essay
 title: My First Year of Software Engineering
 date: 2020-12-17
 labels:
-  -Software Engineering
+  - Software Engineering
 ---
 
 ## Software Engineering
