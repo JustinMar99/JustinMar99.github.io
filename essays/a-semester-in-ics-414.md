@@ -4,8 +4,8 @@ type: essay
 title: A Semester in ICS 414
 date: 2020-09-03
 labels:
-  -Javascript
-  -React
+  - Javascript
+  - React
 ---
 
 ## Intro
