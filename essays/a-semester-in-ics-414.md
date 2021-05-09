@@ -8,10 +8,10 @@ labels:
   - React
 ---
 
-## Intro
-Working with Hawaiian Electric Industries was an interesting experience. I learned a lot about designing websites for people to use. Within our group, we had to constantly discuss the benefits of certain features and how it affected user experience. For example, we created a "What If" page where users can manipulate their transportation data to see how that affected their green house gas emissions. We also know that people prefer certain looks such as a dark theme, thus we added it in, and to make it clear to the user, we had a switch that showed day then night, depending on which theme was selected.
+## User Experience
+Working with Hawaiian Electric Industries (HEI) was an interesting experience. I learned a lot about designing websites for people to use. Within our group, we had to constantly discuss the benefits of certain features and how it affected user experience. For example, we created a "What If" page where users can manipulate their transportation data to see how that affected their green house gas emissions. We also know that people prefer certain looks such as a dark theme, thus we added it in, and to make it clear to the user, we had a switch that showed day then night, depending on which theme was selected. Futhermore, meeting with members of HEI and having them give their input helped in understanding the difference between what we as the developers look for and what they as clients look for. 
 
-## React States
+## React
 This project has improved my understanding of React states. In the previous ICS software engineering class, 314, there was hardly a need to learn React states indepth. For this project, I had to learn about useRef(), such as with:
 
 ```javascript
