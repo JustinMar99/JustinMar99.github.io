@@ -4,7 +4,7 @@ type: essay
 title: A Doubtful Student's Experience with Javascript 
 date: 2020-09-03
 labels:
-  -Javascript
+  - Javascript
 ---
 
 ## My experience with Javascript
