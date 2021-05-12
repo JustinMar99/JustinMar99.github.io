@@ -54,3 +54,5 @@ const eventArr = [...events];
 eventArr[selectedEvent.id] = { id: eventArr[selectedEvent.id].id, title: transport, date: selectedEvent.date, color: colorType(transport) };
 setEvents(eventArr);
 ```
+## Group
+We worked in a bigger group than in ICS 314 and there were pros and cons to both. In ICS 314, I feel working in a smaller group caused me to learn more about what goes on in the code both front-end and back-end, since there was so much more for each individual member to do. I also felt it was easier to coordinate who does what because there was a lot less to split between the members. If I did finish early, it was easy to decide on what to work on next since I knew what I could work on without messing or needing to wait on a different member to finish. In ICS 414, we had more members in the group, thus we could cover more ground easier. However, it meant there was more waiting on other members to finish their work, so that we don't mess anything up. 
